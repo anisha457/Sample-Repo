@@ -1,0 +1,124 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235,235,235 );
+}
+
+
+
+
+
+
+.manage-subs{
+    padding: 10px 20px;
+    font: Roboto, Arial;
+    font-family: Roboto;
+    border: none;
+    color: #295ED3;
+    align-self: right;
+    border-radius: 20px;
+    z-index : 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.manage-subs:hover{
+    opacity: 1;
+    background-color: #E1F0FE;
+}
+
+.manage-subs:active{
+    background-color: #CAD8E4;
+}
+
+
+
+
+
+
+.sidebar-link img{
+     height: 24px;
+     margin-bottom: 4px;
+
+}
+
+.sidebar-link div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+
+
+
+.sidebar-link-focus-jutsu{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link-focus-jutsu:hover{
+    border-radius: 100px;
+    background-color: #99292B;
+    color: white;
+}
+
+.sidebar-link-focus-jutsu img{
+    height: 24px;
+    margin-bottom: 4px;
+
+}
+
+.sidebar-link-focus-jutsu div{
+   font-family: Roboto, Arial;
+   font-size: 10px;
+}
+
+
+
+
+.sidebar-link-focus-jutsu-clicked{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #99292B;
+    color: white;
+    border-radius: 100px;
+}
+
+
+.sidebar-link-focus-jutsu-clicked img{
+    height: 24px;
+    margin-bottom: 4px;
+
+}
+
+.sidebar-link-focus-jutsu-clicked div{
+   font-family: Roboto, Arial;
+   font-size: 10px;
+}
+
+
